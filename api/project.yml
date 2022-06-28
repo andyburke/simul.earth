@@ -5,7 +5,6 @@ packages:
     environment:
       DB_URL: ${DB_URL}
     parameters: {}
-    runtime: 'nodejs:default'
     annotations: {}
     actions:
       - name: create
