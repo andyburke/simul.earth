@@ -7,7 +7,7 @@ module.exports = {
 		};
 
 		return {
-			body: simplecoder.encode( new_user.email ?? '' )
+			body: simplecoder.encode( new_user.email ?? 'test' )
 		};
 	}
 };
