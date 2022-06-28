@@ -2,7 +2,7 @@
   "name": "users.create",
   "version": "1.0.0",
   "description": "users.create package",
-  "type": "module",
+  "main": "create.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
