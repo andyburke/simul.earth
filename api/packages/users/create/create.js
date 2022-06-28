@@ -57,7 +57,9 @@ module.exports = {
 			` );
 		}
 	
-		const users_db = await databases.postgres.get( User );
+		const users_db = await databases.postgres.get( User, {
+			debug: true
+		} );
 
 		await users_db.put( new_user );
 
