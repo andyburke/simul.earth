@@ -37,7 +37,7 @@ const User = model( {
 } );
 
 module.exports = {
-	main: function( args ) {
+	main: async function( args ) {
 		const new_user_info = {
 			email: args.email,
 			name: {
