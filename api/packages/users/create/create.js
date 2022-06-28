@@ -1,6 +1,6 @@
 const simplecoder = require( 'simplecoder' );
 
-function main( args ) {
+export function main( args ) {
 	const new_user = {
 		email: args.email
 	};
