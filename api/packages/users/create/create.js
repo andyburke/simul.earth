@@ -1,5 +1,4 @@
 const {
-	as_json_schema,
 	databases,
 	datatypes,
 	model
