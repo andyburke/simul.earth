@@ -1,0 +1,18 @@
+targetNamespace: ''
+parameters: {}
+packages:
+  - name: users
+    environment:
+      DB_URL: ${DB_URL}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: create
+        binary: false
+        main: ''
+        runtime: 'nodejs:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
