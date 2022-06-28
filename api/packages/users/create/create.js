@@ -1,3 +1,5 @@
+import simplecoder from 'simplecoder';
+
 export function main( args ) {
 	const new_user = {
 		email: args.email
