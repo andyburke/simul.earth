@@ -1,8 +1,8 @@
 {
-  "name": "users",
+  "name": "users.create",
   "version": "1.0.0",
-  "description": "users package",
-  "main": "index.js",
+  "description": "users.create package",
+  "main": "create.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
