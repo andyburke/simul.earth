@@ -56,7 +56,15 @@ module.exports = {
 			${ JSON.stringify( validation_errors, null, 4 ) }
 			` );
 		}
-	
+console.dir( {
+	POSTGRES_HOST,
+	POSTGRES_PORT,
+	POSTGRES_USER,
+	POSTGRES_PASSWORD,
+	POSTGRES_DATABASE,
+	POSTGRES_CACERT
+} );
+
 		const users_db = await databases.postgres.get( User, {
 			debug: true
 		} );
