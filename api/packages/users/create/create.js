@@ -56,6 +56,8 @@ module.exports = {
 			${ JSON.stringify( validation_errors, null, 4 ) }
 			` );
 		}
+
+console.log( 'hello' );
 console.dir( {
 	POSTGRES_HOST,
 	POSTGRES_PORT,
@@ -72,7 +74,10 @@ console.dir( {
 		await users_db.put( new_user );
 
 		return {
-			body: new_user
+			body: new_user,
+			headers: {
+				"content-type": "application/json; charset=UTF-8"
+			}
 		};
 	}
 };
